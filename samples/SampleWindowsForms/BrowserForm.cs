@@ -41,5 +41,15 @@ namespace SampleWindowsForms
         {
             RecentPostBrowser.Url = new Uri("https://google.com");
         }
+
+        private void button1_DragDrop(object sender, DragEventArgs e)
+        {
+
+        }
+
+        private void button1_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Link;
+        }
     }
 }

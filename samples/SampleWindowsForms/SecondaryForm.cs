@@ -22,5 +22,11 @@ namespace SampleWindowsForms
         {
             fontDialog1.ShowDialog();
         }
+
+        private void splitContainer2_Panel2_DragOver(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Link;
+        
+        }
     }
 }

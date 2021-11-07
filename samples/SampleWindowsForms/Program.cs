@@ -16,7 +16,7 @@ namespace SampleWindowsForms
             ComWrappers.RegisterForMarshalling(WinFormsComInterop.WinFormsComWrappers.Instance);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new Form1());
         }
     }
 }

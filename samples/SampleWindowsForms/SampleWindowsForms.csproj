@@ -25,12 +25,9 @@
   </ItemGroup>-->
 
    <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="6.0.0-*" />
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="6.0.0-rc.1.21420.1" />
+    <PackageReference Include="WinFormsComInterop" Version="0.2.9" />
   </ItemGroup>
-
-   <ItemGroup>
-     <ProjectReference Include="..\..\WinFormsComInterop\WinFormsComInterop.csproj" />
-   </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

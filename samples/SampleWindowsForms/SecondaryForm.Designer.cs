@@ -59,8 +59,6 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.accessibleDescriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accessibleNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accessibleRoleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -94,6 +92,8 @@
             this.textImageRelationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolTipTextDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.visibleDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -109,13 +109,14 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(18, 18);
+            this.monthCalendar1.Location = new System.Drawing.Point(18, 20);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(9, 10, 9, 10);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(18, 193);
+            this.trackBar1.Location = new System.Drawing.Point(18, 219);
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(104, 45);
             this.trackBar1.TabIndex = 1;
@@ -123,22 +124,22 @@
             // 
             // propertyGrid1
             // 
-            this.propertyGrid1.Location = new System.Drawing.Point(258, 18);
+            this.propertyGrid1.Location = new System.Drawing.Point(258, 20);
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.SelectedObject = this.monthCalendar1;
-            this.propertyGrid1.Size = new System.Drawing.Size(298, 292);
+            this.propertyGrid1.Size = new System.Drawing.Size(298, 331);
             this.propertyGrid1.TabIndex = 2;
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(228, 229);
+            this.vScrollBar1.Location = new System.Drawing.Point(228, 260);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 80);
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 91);
             this.vScrollBar1.TabIndex = 3;
             // 
             // hScrollBar1
             // 
-            this.hScrollBar1.Location = new System.Drawing.Point(41, 377);
+            this.hScrollBar1.Location = new System.Drawing.Point(41, 427);
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(454, 17);
             this.hScrollBar1.TabIndex = 4;
@@ -149,17 +150,17 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(579, 47);
+            this.richTextBox1.Location = new System.Drawing.Point(579, 53);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(165, 158);
+            this.richTextBox1.Size = new System.Drawing.Size(165, 179);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = "";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(18, 229);
+            this.button1.Location = new System.Drawing.Point(18, 260);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 6;
             this.button1.Text = "Color Dlg";
             this.button1.UseVisualStyleBackColor = true;
@@ -168,9 +169,9 @@
             // button2
             // 
             this.button2.ContextMenuStrip = this.contextMenuStrip1;
-            this.button2.Location = new System.Drawing.Point(99, 229);
+            this.button2.Location = new System.Drawing.Point(99, 260);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 7;
             this.button2.Text = "Font Dlg";
             this.button2.UseVisualStyleBackColor = true;
@@ -183,12 +184,12 @@
             this.adasdasdToolStripMenuItem,
             this.adsasdasdToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(129, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(140, 70);
             // 
             // adasdToolStripMenuItem
             // 
             this.adasdToolStripMenuItem.Name = "adasdToolStripMenuItem";
-            this.adasdToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.adasdToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.adasdToolStripMenuItem.Text = "adasd";
             // 
             // adasdasdToolStripMenuItem
@@ -196,19 +197,19 @@
             this.adasdasdToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.asdasdasToolStripMenuItem});
             this.adasdasdToolStripMenuItem.Name = "adasdasdToolStripMenuItem";
-            this.adasdasdToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.adasdasdToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.adasdasdToolStripMenuItem.Text = "adasdasd";
             // 
             // asdasdasToolStripMenuItem
             // 
             this.asdasdasToolStripMenuItem.Name = "asdasdasToolStripMenuItem";
-            this.asdasdasToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.asdasdasToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.asdasdasToolStripMenuItem.Text = "asdasdas";
             // 
             // adsasdasdToolStripMenuItem
             // 
             this.adsasdasdToolStripMenuItem.Name = "adsasdasdToolStripMenuItem";
-            this.adsasdasdToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.adsasdasdToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.adsasdasdToolStripMenuItem.Text = "adsasdasd";
             // 
             // menuStrip1
@@ -218,7 +219,7 @@
             this.xxxxToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 25);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -232,7 +233,7 @@
             this.toolStripComboBox1,
             this.toolStripTextBox1});
             this.ssssToolStripMenuItem.Name = "ssssToolStripMenuItem";
-            this.ssssToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.ssssToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.ssssToolStripMenuItem.Text = "ssss";
             // 
             // xxxxToolStripMenuItem
@@ -261,7 +262,7 @@
             // toolStripComboBox1
             // 
             this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 25);
             // 
             // toolStripTextBox1
             // 
@@ -271,22 +272,27 @@
             // xxxxToolStripMenuItem1
             // 
             this.xxxxToolStripMenuItem1.Name = "xxxxToolStripMenuItem1";
-            this.xxxxToolStripMenuItem1.Size = new System.Drawing.Size(43, 20);
+            this.xxxxToolStripMenuItem1.Size = new System.Drawing.Size(44, 21);
             this.xxxxToolStripMenuItem1.Text = "xxxx";
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(18, 259);
+            this.splitContainer1.Location = new System.Drawing.Point(18, 294);
             this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Size = new System.Drawing.Size(150, 100);
+            this.splitContainer1.Size = new System.Drawing.Size(150, 113);
             this.splitContainer1.TabIndex = 9;
             // 
             // splitContainer2
             // 
             this.splitContainer2.Cursor = System.Windows.Forms.Cursors.VSplit;
-            this.splitContainer2.Location = new System.Drawing.Point(579, 209);
+            this.splitContainer2.Location = new System.Drawing.Point(579, 237);
             this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Size = new System.Drawing.Size(150, 100);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.AllowDrop = true;
+            this.splitContainer2.Panel2.DragOver += new System.Windows.Forms.DragEventHandler(this.splitContainer2_Panel2_DragOver);
+            this.splitContainer2.Size = new System.Drawing.Size(150, 113);
             this.splitContainer2.TabIndex = 10;
             // 
             // dataGridView1
@@ -328,20 +334,11 @@
             this.toolTipTextDataGridViewTextBoxColumn,
             this.visibleDataGridViewCheckBoxColumn});
             this.dataGridView1.DataSource = this.menuStrip1.Items;
-            this.dataGridView1.Location = new System.Drawing.Point(589, 330);
+            this.dataGridView1.Location = new System.Drawing.Point(589, 374);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(190, 89);
+            this.dataGridView1.Size = new System.Drawing.Size(190, 101);
             this.dataGridView1.TabIndex = 11;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SampleWindowsForms.Properties.Resources.install_spinner;
-            this.pictureBox1.Location = new System.Drawing.Point(258, 317);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
             // 
             // accessibleDescriptionDataGridViewTextBoxColumn
             // 
@@ -541,6 +538,15 @@
             this.visibleDataGridViewCheckBoxColumn.HeaderText = "Visible";
             this.visibleDataGridViewCheckBoxColumn.Name = "visibleDataGridViewCheckBoxColumn";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SampleWindowsForms.Properties.Resources.install_spinner;
+            this.pictureBox1.Location = new System.Drawing.Point(258, 359);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 57);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Error;
@@ -553,9 +559,9 @@
             // 
             // SecondaryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 510);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.splitContainer2);
